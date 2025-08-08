@@ -9,9 +9,9 @@
     "device",
     "feature",
     "language",
-    "license",
     "operatingSystem",
-    "programmingLanguage"
+    "programmingLanguage",
+    "usageCondition"
   ],
   "properties": {
     "applicationCategory": {
@@ -103,15 +103,6 @@
         "controlledTerms:Language"
       ]
     },
-    "license": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses of this software version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "operatingSystem": {
       "type": "array",
       "minItems": 1,
@@ -147,6 +138,16 @@
       "items": {
         "type": "string"
       }
+    },
+    "usageCondition": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all licenses or available data usage agreements applicable to this software version.",
+      "_linkedTypes": [
+        "core:License",
+        "core:UsageAgreement"
+      ]
     }
   }
 }
