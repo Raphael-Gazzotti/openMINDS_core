@@ -14,6 +14,11 @@
          "legalPerson"
       ]
     },
+    "notice": {
+      "type": "string",
+      "pattern": "(?:©|Copyright|Copr\\.)\\s*(?:\\d{4}(?:\\s*[-–,]\\s*\\d{4})?)\\s+.+",
+      "_instruction": "Enter the statutorily prescribed notice of the claim to ownership."
+    },
     "year": {
       "type": "array",
       "items": {
