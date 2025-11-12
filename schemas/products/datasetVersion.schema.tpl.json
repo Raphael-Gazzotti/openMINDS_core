@@ -6,8 +6,7 @@
     "digitalIdentifier",
     "ethicsAssessment",
     "experimentalApproach",
-    "technique",
-    "usageCondition"
+    "technique"
   ],
   "properties": {
     "behavioralProtocol": {
@@ -130,14 +129,7 @@
       ]
     },
     "usageCondition": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses or available data usage agreements applicable to this dataset version.",
-      "_linkedTypes": [
-        "core:License",
-        "core:UsageAgreement"
-      ]
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this dataset version."
     }
   }
 }

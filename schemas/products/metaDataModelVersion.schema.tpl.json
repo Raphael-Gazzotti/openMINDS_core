@@ -2,8 +2,7 @@
   "_type": "core:MetaDataModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "type",
-    "usageCondition"
+    "type"
   ],
   "properties": {
     "digitalIdentifier": {
@@ -53,14 +52,7 @@
       ]
     },
     "usageCondition": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses or available data usage agreements applicable to this (meta)data model version.",
-      "_linkedTypes": [
-        "core:License",
-        "core:UsageAgreement"
-      ]
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this (meta)data model version.",
     }
   }
 }

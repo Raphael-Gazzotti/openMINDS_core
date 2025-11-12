@@ -10,8 +10,7 @@
     "feature",
     "language",
     "operatingSystem",
-    "programmingLanguage",
-    "usageCondition"
+    "programmingLanguage"
   ],
   "properties": {
     "applicationCategory": {
@@ -131,14 +130,7 @@
       }
     },
     "usageCondition": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses or available data usage agreements applicable to this software version.",
-      "_linkedTypes": [
-        "core:License",
-        "core:UsageAgreement"
-      ]
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this software version."
     }
   }
 }
