@@ -76,15 +76,6 @@
         "core:Model"
       ]
     },
-    "license": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all licenses of this computational model version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "outputData": {
       "type": "array",
       "minItems": 1,

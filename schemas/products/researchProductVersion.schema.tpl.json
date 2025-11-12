@@ -19,10 +19,13 @@
         "controlledTerms:ProductAccessibility"
       ]
     },
-    "copyright": {
-      "_instruction": "Enter the copyright information of this research product version.",
+    "contribution": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all the contributions made to this research product version.",
       "_embeddedTypes": [
-        "core:Copyright"
+        "core:Contribution"
       ]
     },
     "custodian": {
@@ -78,15 +81,6 @@
       "_instruction": "Add all relevant keywords to this research product version either by adding controlled terms or by suggesting new terms.",
       "_linkedCategories": [
         "keyword"
-      ]
-    },
-    "otherContribution": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add any other contributions to this research product version that are not covered under 'author'/'developer' or 'custodian'.",
-      "_embeddedTypes": [
-        "core:Contribution"
       ]
     },
     "relatedPublication": {
