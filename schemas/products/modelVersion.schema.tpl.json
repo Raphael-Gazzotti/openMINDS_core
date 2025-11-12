@@ -2,8 +2,7 @@
   "_type": "core:ModelVersion",
   "_extends": "products/researchProductVersion.schema.tpl.json",
   "required": [
-    "format",
-    "license"
+    "format"
   ],
   "properties": {
     "configuration": {
@@ -97,6 +96,9 @@
         "core:FileBundle",
         "core:WebResource"
       ]
+    },
+    "usageCondition": {
+      "_instruction": "Add all licenses, copyright or available data usage agreements applicable to this computational model version."
     }
   }
 }
